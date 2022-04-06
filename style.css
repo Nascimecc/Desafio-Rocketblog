@@ -85,6 +85,15 @@
   border-radius: 0px 4px 4px 0px;
 
 }
+
+.lupa {
+  position: relative;
+  bottom: -2px;
+  background-color: #9E6DC2;
+  padding:10px 24px 10px 24px;
+  border-radius: 0 3px 3px 0
+}
+
 .imagem-guiadef {
   position: absolute;
   width: 570px;
@@ -137,21 +146,19 @@ filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.25));
   
 }
 .guiaveja {
-
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 27px;
   color: #9E6DC2;
-
+  display: inline;
 }
 .cliqueveja {
+  position: relative;
   width: 24px;
   height: 24px;
-  left: 223px;
-  top: 470px;
-  
+  top: 6px;
 }
 
 main {
